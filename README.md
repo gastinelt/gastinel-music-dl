@@ -65,3 +65,12 @@ cargo tauri build
 ## Licence
 
 Distribué sous licence **GNU GPL v3** — voir le fichier [LICENSE](LICENSE).
+
+---
+
+## Crédits & Projets utilisés
+
+- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** : moteur principal de téléchargement et d'extraction audio.
+- **[streamrip](https://github.com/nathom/streamrip)** : projet original ayant inspiré la démarche de téléchargement musical local à l'origine de cette application.
+- **[FFmpeg](https://ffmpeg.org/)** & **[mutagen](https://github.com/quodlibet/mutagen)** : conversion audio MP3 haute qualité et écriture des tags ID3 / pochettes.
+- **[Navidrome](https://www.navidrome.org/)** : serveur de streaming musical compatible avec l'export automatique `.m3u8`.
