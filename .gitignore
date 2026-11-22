@@ -1,0 +1,7 @@
+node_modules/
+dist/
+src-tauri/target/
+worker/__pycache__/
+*.exe
+*.msi
+*.log

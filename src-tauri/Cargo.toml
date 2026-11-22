@@ -1,0 +1,25 @@
+[package]
+name = "gastinel-music-dl"
+version = "1.0.0"
+description = "Téléchargeur musical haute qualité et synchronisation Navidrome"
+authors = ["Théo Gastinel"]
+edition = "2021"
+
+[lib]
+name = "gastinel_music_dl_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.6.3", features = [] }
+
+[dependencies]
+tauri = { version = "2.11.3", features = [] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
