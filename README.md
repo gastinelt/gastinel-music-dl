@@ -34,11 +34,17 @@ Avant d'utiliser l'application, assure-toi d'avoir :
 
 ## Captures d'écran
 
-*(Captures à ajouter après validation finale de l'interface)*
+### 1. Analyse & Estimation avant téléchargement
+![Analyse avant téléchargement](docs/screenshots/01-analyse.png)
 
-- Écran principal — Analyse, estimation `Mo/Go` et suivi temps réel
-- Rapport de vérification bit-à-bit en RAM (Rust) et ajout sur playlist existante
-- Onglet Configuration & gestion Navidrome
+### 2. Suivi temps réel (`%`, `Mo/Go`, `ETA`, `Temps passé`)
+![Téléchargement temps réel](docs/screenshots/02-telechargement.png)
+
+### 3. Playlists, Navidrome & Vérification bit-à-bit en RAM (Rust)
+![Playlists et vérification RAM](docs/screenshots/03-navidrome-ram.png)
+
+### 4. Écran de configuration & prérequis
+![Configuration](docs/screenshots/04-configuration.png)
 
 ---
 
